@@ -1,8 +1,8 @@
-import "./Main.css"
+import styles from "./Main.module.css"
 
 export default function Main({exemplo}) {
     return(
-        <main className="Main">
+        <main className={styles.Main}>
             <p>Main</p>
             <p>{exemplo}</p>
         </main>
