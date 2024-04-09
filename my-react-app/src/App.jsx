@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <Header/>
-      <Main/>
+      <Main exemplo = "props exemplo"/>
       <Footer/>
     </>
   )
